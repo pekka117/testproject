@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from testproject!")
+from testproject.snake import main
+
+__all__ = ["main"]
